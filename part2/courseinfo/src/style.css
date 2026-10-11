@@ -1,0 +1,5 @@
+body { font-family: Arial, sans-serif; color: #202124; margin: 24px; }
+main { max-width: 660px; }
+h1 { margin-bottom: 26px; }
+.course { padding: 2px 0 15px; margin-bottom: 20px; border-bottom: 1px solid #ddd; }
+.course p { margin: 7px 0; }

@@ -1,0 +1,8 @@
+body { font-family: Arial, sans-serif; color: #202124; margin: 24px; }
+main { max-width: 740px; }
+input { padding: 7px 8px; border: 1px solid #aaa; border-radius: 4px; }
+button { padding: 3px 9px; cursor: pointer; }
+.matches li { margin: 9px 0; }
+.country { margin-top: 24px; }
+.flag { max-width: 230px; max-height: 150px; object-fit: contain; border: 1px solid #ccc; }
+.country section { margin-top: 20px; }
