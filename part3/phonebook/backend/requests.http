@@ -1,0 +1,29 @@
+### First: start backend with npm run dev; requires MongoDB Atlas.
+GET http://localhost:3001/info
+
+### List persons
+GET http://localhost:3001/api/persons
+
+### Create a valid person (unique name required)
+POST http://localhost:3001/api/persons
+Content-Type: application/json
+
+{ "name": "Test Contact", "number": "040-12345678" }
+
+### Validation error: invalid phone number
+POST http://localhost:3001/api/persons
+Content-Type: application/json
+
+{ "name": "Invalid Example", "number": "12345" }
+
+### Replace the ID below with the one returned by POST
+GET http://localhost:3001/api/persons/REPLACE_WITH_ID
+
+### Update the number
+PUT http://localhost:3001/api/persons/REPLACE_WITH_ID
+Content-Type: application/json
+
+{ "number": "040-87654321" }
+
+### Delete the contact
+DELETE http://localhost:3001/api/persons/REPLACE_WITH_ID

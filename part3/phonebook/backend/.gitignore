@@ -1,0 +1,8 @@
+node_modules/
+.env
+.env.*
+!.env.example
+*.log
+.DS_Store
+# IMPORTANT: do not ignore dist/. Full Stack Open 3.11 and 3.21
+# require the frontend build to be served by the deployed backend.
